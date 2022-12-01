@@ -1,0 +1,222 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }  
+        body {
+            width: auto;
+            height: auto;
+        }
+  
+        div, section, span, ul, li, a, header{
+            box-sizing:border-box;
+        }
+
+       
+        button{
+            object-position: right;
+        }
+        .link{
+            text-align: right;
+            
+        }
+        table,th,td{
+            border: none;
+            border-collapse: collapse;
+            text-align: center;
+            word-spacing: 2px;
+        }
+ 
+        #Home{
+            width: 100%;
+            height: 100%;
+            background-color: #85850e;
+        }
+
+        .menu ul{
+            display: inline-flex;
+            margin: 50px;
+        }
+        .menu ul li{
+            list-style: none;
+            margin: 0 20px;
+            color: black;
+            cursor: pointer;
+        }
+        .btn{
+            display: block;
+            color: black;
+            padding: 5px 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+        }
+        .btn:hover{
+            background-color: #85850e;;
+            color:white;
+        }
+        
+        .logo img{
+            width: 196px;
+            margin-top: 10px;;
+            margin-right: 48px;
+            top:40px;
+            right: 80px;
+            position: absolute;
+        }
+        
+        .app-text{
+            position: absolute;
+            width:50%;
+            float:left;
+        }
+        .app-text h1{
+            font-size: 43px;
+            width: 640px;
+            position: relative;
+            margin-left: 600px;
+            margin-top:20px;
+            color: black;
+        }
+        .app-text buton{
+            margin-left: 880px;
+            margin-top:20px;
+            position: relative;
+        }
+        .app-text h2{
+            width: 650px;
+            font-size: 25px;
+            margin: 30px 0 30px 10px;
+            line-height: 25px;
+            color:black;
+        }
+        .app-text p{
+            width: 650px;
+            font-size: 25px;
+            margin: 30px 0 30px 30px;
+            line-height: 25px;
+            color: black;
+            text-align: justify;
+        }
+        .app-picture{
+            width:90%;
+            float:right;
+        }
+        .app-picture img{
+           width: 100%;
+           margin-top: -1500px;
+           margin-left: 800px;
+        }
+        .app1-text{
+            position:relative;
+            margin-top: -400px;
+            margin-left: 900px;
+            width:50%;
+            float:left;
+        }
+        .app1-poza{
+            margin-top: 600px;
+            margin-left:100px;
+        }
+        .app1-text p{
+            width: 650px;
+            font-size: 25px;
+            margin: 30px 0 30px 30px;
+            line-height: 25px;
+            color: black;
+            text-align: justify;
+        }
+        .enum1{
+            color:black;
+            font: 100px;
+            margin-left: 100px;
+        }
+        .app1-text center {
+            margin-left: -200px;
+        }
+        
+        .app2-text {
+            margin-top: 50px;
+            position: relative
+        }
+        .app2-text p{
+            color:black;
+            font:100px;
+            text-align: center;
+            font-size: 25px;
+        }
+        .app2-text h3{
+            text-align: center;
+            font-size: 20px;
+        }
+        .app2-text h4{
+            text-align: center;
+            color:black;
+            font-size: 20px;
+        }
+        .app2-text h5{
+            text-align: center;
+            color:black;
+            font-size: 20px;
+        }
+        
+        hr{
+            color: black;
+        }
+
+        #About{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            color: white;
+            background-color: white;
+        }
+        #Benefits{
+            width: 100%;
+            height: 100%;
+            color: white;
+            position: relative;
+            background-color: white;  
+        }
+        #Gifts{
+            width: 100%;
+            height: 100%;
+            color: white;
+            background-color: white; 
+        }
+        #Order{
+            width: 100%;
+            height: 100%;
+            color: black;
+            background-color: white; 
+        }
+        .order-menu ul{
+            display: inline-flex;
+            margin: 50px;
+            
+            
+        }
+        .order-menu ul li{
+            list-style: none;
+            color: black;
+            cursor: pointer;
+            margin-top: -100px;
+            margin-right:75px;
+            margin-left:75px;
+        }
+        .app-text-order{
+            margin-top: -40px;
+        }
+        
+        .app-picture-o1 ul{
+            display: inline-flex ;
+            margin: 50px;
+            
+        }
+        .app-picture-o1 ul li{
+            list-style: none;
+            color: black;
+            cursor: pointer;
+            margin-left:2px;
+        }
+       
